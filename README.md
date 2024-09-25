@@ -33,9 +33,10 @@ If the AWS CLI is not installed, you can install it using the following guide:
 
 ### Step 2: Configure AWS CLI
 Once the AWS CLI is installed, you must configure it with your credentials:
-The command to configure:  
-  aws configure
-
+The command to configure:
+```bash
+aws configure
+```
 ### Step 3: Create the Script
 Copy the code provided in the script into a file named eg:(aws_resource_lister.sh).
 Save it to a desired location.
@@ -43,10 +44,13 @@ Save it to a desired location.
 ### Step 4: Make the Script Executable
 To execute the script, you need to provide it with execution permissions:
 The command to make the script executable:
-  chmod +x aws_resource_lister.sh
+```bash
+chmod +x aws_resource_lister.sh
+```
 
 ### Step 5: Run the Script
 Run the script in your terminal by using the following command:
-  ./aws_resource_lister.sh
-
+```bash
+./aws_resource_lister.sh
+```
 ### --------------------Thankyou for using/executing my script-------------------- ###
